@@ -50,3 +50,4 @@ variable "db_name" {
   description = "Name of the initial database to create in RDS"
   type        = string
 }
+# trigger
