@@ -147,7 +147,7 @@ Every push to `terraform/` triggers: format check → init → validate → plan
 
 ---
 
-## Design decisions worth explaining in an interview
+## Design decisions 
 
 **Why a single NAT Gateway?** One per AZ would add ~$33/month and improve AZ fault tolerance, but is unnecessary for a demo. Toggled via variable.
 
